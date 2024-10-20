@@ -1,0 +1,70 @@
+header{
+    background-color: brown;
+    position: sticky;
+    top: 0;
+}
+.titulo{
+    padding: 5px;
+    text-align: center;
+    font-size: 50px;
+}
+.menu{
+    background: rgba(160, 159, 159, 0.7);
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 45px;
+    align-items: center;
+  }
+  .menu a{
+    border: solid;
+    color: black;
+    border-radius: 10px;
+    padding: 3px;
+  }
+  .menu a:hover{
+    background-color: white;
+    font-size: 20px;
+}
+main{
+  background-color: rgba(232, 232, 232);
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+#contenedor-derecha{
+  background-color: antiquewhite;
+  position: fixed;
+  width: 20%;
+  right: 0;
+  height: 100%;
+}
+#contenedor-derecha .imagen{
+  display: list-item;
+}
+#anuncio-pablo{
+  font-size: 30px;
+}
+#anuncio-pablo > p{
+  color: black;
+}
+.imagen{
+  width: 100%;
+}
+.envoltorio-iconos{
+  width: 32px;
+  height: 32px;
+}
+.icono{
+  width: 100%;
+}
+.footer{
+padding: 20px;
+width: 80%;
+background-color: seashell;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}

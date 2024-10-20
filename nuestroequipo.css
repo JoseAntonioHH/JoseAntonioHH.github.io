@@ -1,0 +1,36 @@
+#subtitulo-encabezado-equipo{
+  color: black;
+}
+h2, h3, h4, h5, h6, p{
+  color: white;
+}
+.encabezado-equipo{
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.foto-equipo{
+  padding: 15px;
+  
+}
+.foto-equipo > img{
+  width: 20%;
+}
+.imagen{
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+#oc{
+background-color: black;
+}
+#zhetian{
+  background-color: rgba(0, 0, 0, 0.822);
+}
+#pablo{
+  background-color: rgba(0, 0, 0, 0.582);
+}
+#carlos{
+  background-color: rgba(0, 0, 0, 0.404);
+}

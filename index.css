@@ -1,0 +1,42 @@
+.encabezado-terapias{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+#terapias{
+  margin-left: 7%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#contenedor-principal .envoltorio-terapia{
+  width: 400px;
+  height: 400px;
+}
+.imagen-terapia{
+  width: 100%;
+}
+.terapia{
+  text-align: center;
+  font-size: 48px;
+  font-family: "Holtwood One SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.footer-esquizofrenia{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: seashell;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#boton-esquizofrenico{
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  height: 9%;
+  width: 17%;
+  font-size: 200%;
+}

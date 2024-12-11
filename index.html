@@ -18,25 +18,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bungee+Tint&family=Cormorant+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="plantilla.css">
+    <script src="equizofrenia.js" defer></script>
     
     
     <title>Document</title>
 </head>
 <body>
-    <header class="header">
+    <header id="header" class="header">
         <div>
             <h1 class="titulo">Centro intoxicacion</h1>
         </div>
         <div class="menu">
-            <a href="/index.html">terapias</a>
-            <a href="/nuestroequipo.html">nuestro equipo</a>
-            <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">do you know the way?</a>
+            <a href="/index.html" class="texto">terapias</a>
+            <a href="/nuestroequipo.html" class="texto">nuestro equipo</a>
+            <a href="/equizofrenia.html" class="texto">equizofrenia</a>
+            <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" class="texto">do you know the way?</a>
         </div>
     </header>
-    <main>
+    <main id="main">
         <div id="contenedor-principal">
             <div class="encabezado-terapias">
                 <h1 class="texto">Seleccione su vicio deseado</h1>
@@ -47,7 +51,7 @@
                     <p class="terapia">LOL</p>
                 </div>
                 <div class="envoltorio-terapia">
-                    <img class="imagen-terapia" src="/img/ruleta.jpg" alt="Imagen portada de la seccion de dexintoxicacion de lol">
+                    <img id="a" class="imagen-terapia" src="/img/ruleta.jpg" alt="Imagen portada de la seccion de dexintoxicacion de lol">
                     <p class="terapia">Ludopatia</p>
                 </div>
                 <div class="envoltorio-terapia">
@@ -59,7 +63,7 @@
                     <p class="terapia">tabaquismo</p>
                 </div>
             </div>
-
+            <p class="texto">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rhoncus maximus justo at posuere. In vel feugiat diam. Integer at neque dapibus ligula dapibus mollis. Vivamus elementum facilisis urna, et facilisis lacus tincidunt aliquet. Duis pharetra turpis justo. Aliquam diam diam, aliquam nec finibus in, gravida eu justo. Integer sit amet augue commodo, posuere eros sit amet, accumsan neque. Nullam sodales in velit eu venenatis. Sed consequat sapien id velit bibendum mattis. Aliquam erat volutpat.
 
             Sed vitae dictum tellus. Morbi ac eros non mi porta facilisis vitae ut ex. Mauris ac nisl ut sapien feugiat molestie. Cras aliquam sem id lacus malesuada, sit amet convallis massa ornare. Vestibulum scelerisque velit at quam luctus fermentum. Fusce a magna at ante interdum gravida at pellentesque justo. Maecenas porta bibendum magna ut lacinia. Cras molestie luctus diam. Nulla sodales libero sollicitudin erat placerat elementum. Donec convallis orci nec ante posuere, consequat vulputate lacus imperdiet. Pellentesque rutrum vulputate nisi a sollicitudin. Nulla a posuere est. Sed lobortis urna id enim condimentum, vel porta nisi mattis. Proin imperdiet maximus velit non semper. Nulla in velit ac quam gravida rhoncus quis eu felis. Vestibulum neque purus, lobortis vel congue vel, lobortis eget lorem.
@@ -168,17 +172,17 @@
             Pellentesque vel suscipit tellus. Integer id scelerisque nulla. Aliquam erat volutpat. Proin vulputate ex sed laoreet finibus. Ut sit amet turpis enim. Phasellus arcu ante, fermentum et nisi vel, efficitur scelerisque urna. Cras malesuada nunc non libero placerat pulvinar. Aliquam a diam ultrices dolor ultricies pharetra. Nullam elementum nisl non justo dignissim, vitae semper orci feugiat. Sed vel aliquam felis.
 
             Sed sodales nisi a ex tempor, ac tristique quam vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam consectetur faucibus lorem vel convallis. Suspendisse ante libero, auctor eget ipsum a, tristique pharetra nunc. Aliquam maximus efficitur tristique. Sed quis elit felis. Suspendisse nec tincidunt lectus. Sed nec odio convallis felis facilisis egestas. Donec quis odio vitae quam dictum iaculis ut non diam. Pellentesque ex sapien, ultrices vehicula feugiat et, lobortis molestie lacus. Morbi tristique, lacus vel facilisis sagittis, est ligula consequat eros, et pellentesque quam nulla eget lectus. Aliquam congue porttitor nisl eu suscipit. Etiam mattis pharetra tortor ac accumsan. Donec scelerisque porta velit, quis aliquet turpis euismod sit amet. Pellentesque nunc nulla, efficitur nec sapien quis, sagittis commodo eros.
-
+            </p>
         </div>
         <div id="contenedor-derecha">
             <img class="imagen" src="/img/adelgazar-marx.jpg">
             <div>
                 <img class="imagen" src="/img/pablo-espiritual.jpeg">
-                <div id="anuncio-pablo" class="texto"><p>Sana tu alma</p><p> abraza tu paz interior a traves del monster</p></div>
+                <div id="anuncio-pablo"><p class="texto">Sana tu alma</p><p class="texto"> abraza tu paz interior a traves del monster</p></div>
             </div>
         </div>
     </main>
-    <footer class="footer">
+    <footer id="footer" class="footer">
         <div class="envoltorio-iconos"><img class="icono" src="/img/instagram.png"></div>
         <div class="envoltorio-iconos"><img class="icono" src="/img/tiktok.png"></div>
         <div class="envoltorio-iconos"><img class="icono" src="/img/twitter.png"></div>

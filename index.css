@@ -1,6 +1,11 @@
 .encabezado-terapias{
-  margin-top: 5px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.encabezado-terapias > .texto{
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 #terapias{
   margin-left: 7%;
@@ -20,23 +25,4 @@
   font-family: "Holtwood One SC", serif;
   font-weight: 400;
   font-style: normal;
-}
-.footer-esquizofrenia{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding: 20px;
-  background-color: seashell;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-}
-#boton-esquizofrenico{
-  position: absolute;
-  left: 35%;
-  top: 50%;
-  height: 9%;
-  width: 17%;
-  font-size: 200%;
 }

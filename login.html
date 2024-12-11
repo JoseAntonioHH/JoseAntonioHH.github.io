@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="plantilla.css">
+    <link rel="stylesheet" href="login.css">
+    <script src="equizofrenia.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.1/lib/p5.min.js"></script>
+    <script src="canvaslogin.js" defer></script>
+    <script src="login.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div>
+            <h1 class="titulo">Centro intoxicacion</h1>
+            <a href="/login.html" class="icono-login"><img class="icono" src="/img/login.png"></a>
+        </div>
+        <div class="menu">
+            <a href="/index.html" class="texto">terapias</a>
+            <a href="/nuestroequipo.html" class="texto">nuestro equipo</a>
+            <a href="/equizofrenia.html" class="texto">equizofrenia</a>
+            <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" class="texto">do you know the way?</a>
+        </div>
+    </header>
+    <main id="main">
+        <div id="contenedor-principal">
+            <p class="texto">Otra vez logueando?, olvidona</p>
+            <canvas id='mycanvas'></canvas>
+            <video id='video1' controls='controls'autoplay muted loop width='0'>
+                <source src="/video/olvidona.mp4" type="video/mp4" />
+            </video>
+        </div>
+        <div id="contenedor-derecha">
+            <div class="form">
+      
+                <ul class="tab-group">
+                  <li class="tab active"><a href="#signup">Sign Up</a></li>
+                  <li class="tab"><a href="#login">Log In</a></li>
+                </ul>
+                
+                <div class="tab-content">
+                  <div id="signup">   
+                    <h1>Sign Up for Free</h1>
+                    
+                    <form action="/" method="post">
+                    
+                    <div class="top-row">
+                      <div class="field-wrap">
+                        <label>
+                          First Name<span class="req">*</span>
+                        </label>
+                        <input type="text" required autocomplete="off" />
+                      </div>
+                  
+                      <div class="field-wrap">
+                        <label>
+                          Last Name<span class="req">*</span>
+                        </label>
+                        <input type="text"required autocomplete="off"/>
+                      </div>
+                    </div>
+          
+                    <div class="field-wrap">
+                      <label>
+                        Email Address<span class="req">*</span>
+                      </label>
+                      <input type="email"required autocomplete="off"/>
+                    </div>
+                    
+                    <div class="field-wrap">
+                      <label>
+                        Set A Password<span class="req">*</span>
+                      </label>
+                      <input type="password"required autocomplete="off"/>
+                    </div>
+                    
+                    <button type="submit" class="button button-block"/>Get Started</button>
+                    
+                    </form>
+          
+                  </div>
+                  
+                  <div id="login">   
+                    <h1>Welcome Back!</h1>
+                    
+                    <form action="/" method="post">
+                    
+                      <div class="field-wrap">
+                      <label>
+                        Email Address<span class="req">*</span>
+                      </label>
+                      <input type="email"required autocomplete="off"/>
+                    </div>
+                    
+                    <div class="field-wrap">
+                      <label>
+                        Password<span class="req">*</span>
+                      </label>
+                      <input type="password"required autocomplete="off"/>
+                    </div>
+                    
+                    <p class="forgot"><a href="/img/nelson.jpg">Forgot Password?</a></p>
+                    
+                    <button class="button button-block"/>Log In</button>
+                    
+                    </form>
+          
+                  </div>
+                  
+                </div><!-- tab-content -->
+                
+          </div> <!-- /form -->
+        </div>
+    </main>
+    <footer id="footer" class="footer">
+        <div class="envoltorio-iconos"><img class="icono" src="/img/instagram.png"></div>
+        <div class="envoltorio-iconos"><img class="icono" src="/img/tiktok.png"></div>
+        <div class="envoltorio-iconos"><img class="icono" src="/img/twitter.png"></div>
+    </footer>
+</body>
+
+</html>

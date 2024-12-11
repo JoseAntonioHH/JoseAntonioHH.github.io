@@ -17,6 +17,8 @@
     <meta name="descripcion" content="Primera pagina web para entrega de tarea, hecho con mucho cariño y con la esperanza de que a mi profesor le guste :]">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="apimaps.js" defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bungee+Tint&family=Cormorant+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -32,6 +34,7 @@
     <header id="header" class="header">
         <div>
             <h1 class="titulo">Centro intoxicacion</h1>
+            <a href="/login.html" class="icono-login"><img class="icono" src="/img/login.png"></a>
         </div>
         <div class="menu">
             <a href="/index.html" class="texto">terapias</a>
@@ -47,22 +50,23 @@
             </div>
             <div id="terapias">
                 <div class="envoltorio-terapia">
-                    <img class="imagen-terapia" src="/img/nexo_lol.jpeg" alt="Imagen portada de la seccion de dexintoxicacion de lol">
+                    <img class="imagen-terapia" src="/img/nexo_lol.jpeg" alt="Imagen portada de la seccion de intoxicacion de lol">
                     <p class="terapia">LOL</p>
                 </div>
                 <div class="envoltorio-terapia">
-                    <img id="a" class="imagen-terapia" src="/img/ruleta.jpg" alt="Imagen portada de la seccion de dexintoxicacion de lol">
+                    <img id="a" class="imagen-terapia" src="/img/ruleta.jpg" alt="Imagen portada de la seccion de intoxicacion de ludopatia">
                     <p class="terapia">Ludopatia</p>
                 </div>
                 <div class="envoltorio-terapia">
-                    <img class="imagen-terapia" src="/img/alcohol.jpeg" alt="Imagen portada de la seccion de dexintoxicacion de lol">
+                    <img class="imagen-terapia" src="/img/alcohol.jpeg" alt="Imagen portada de la seccion de intoxicacion de alcoholismo">
                     <p class="terapia">Alcoholismo</p>
                 </div>
                 <div class="envoltorio-terapia">
-                    <img class="imagen-terapia" src="/img/estanco.jpeg" alt="Imagen portada de la seccion de dexintoxicacion de lol">
+                    <img class="imagen-terapia" src="/img/estanco.jpeg" alt="Imagen portada de la seccion de intoxicacion de tabaquismo">
                     <p class="terapia">tabaquismo</p>
                 </div>
             </div>
+            <div id="map"></div>
             <p class="texto">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rhoncus maximus justo at posuere. In vel feugiat diam. Integer at neque dapibus ligula dapibus mollis. Vivamus elementum facilisis urna, et facilisis lacus tincidunt aliquet. Duis pharetra turpis justo. Aliquam diam diam, aliquam nec finibus in, gravida eu justo. Integer sit amet augue commodo, posuere eros sit amet, accumsan neque. Nullam sodales in velit eu venenatis. Sed consequat sapien id velit bibendum mattis. Aliquam erat volutpat.
 

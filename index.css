@@ -26,3 +26,7 @@
   font-weight: 400;
   font-style: normal;
 }
+#map {
+	height: 500px;
+	width: 100%;
+}

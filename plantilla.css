@@ -59,9 +59,18 @@ main{
 .icono{
   width: 100%;
 }
+.icono-login{
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 32px;
+  height: 32px;
+}
 .footer{
+position: fixed;
+bottom: 0px;
 padding: 20px;
-width: 80%;
+width: 78%;
 background-color: seashell;
   display: flex;
   flex-wrap: wrap;

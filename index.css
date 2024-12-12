@@ -27,6 +27,7 @@
   font-style: normal;
 }
 .contenedor-grafico{
+  height: 500px;
   display: flex;
   justify-content: center;
 }

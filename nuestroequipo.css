@@ -42,3 +42,15 @@ background-color: black;
 #carlos{
   background-color: rgba(0, 0, 0, 0.404);
 }
+.contenedor-mapa{
+  text-align: center;
+  margin-top: 20px;
+}
+.texto-mapa{
+  color: black;
+  font-size: 32px;
+}
+#map {
+	height: 500px;
+	width: 100%;
+}

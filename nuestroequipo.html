@@ -6,6 +6,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bungee+Tint&family=Cormorant+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bungee+Tint&family=Cormorant+SC:wght@300;400;500;600;700&family=Poetsen+One&display=swap" rel="stylesheet">
+    <script src="apimaps.js" defer></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"
+        defer></script>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="nuestroequipo.css">
     <link rel="stylesheet" href="plantilla.css">
@@ -50,6 +54,10 @@
                 <h2 class="texto">Carlos Murillo</h2>
                 <img class="imagen" src="/img/carlos.jpeg">
                 <div><h3 class="texto">tesorero</h3> <p class="texto">Su manejo de la tragaperras confiere una total confianza para el desempeño de sus funciones</p><p class="texto">"Jefe, dame cambio que tengo a la mil colores caliente"</p></div>
+            </div>
+            <div class="contenedor-mapa">
+                <p class="texto-mapa">Donde puedes encontrarnos</p>
+                <div id="map"></div>
             </div>
         </div>
         <div id="contenedor-derecha">
